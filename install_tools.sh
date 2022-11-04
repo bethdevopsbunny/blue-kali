@@ -18,6 +18,6 @@ echo "medusa:$(medusa -V | head -1 | awk '{print $2}'):$(ls -lh $(which medusa) 
 apt -yq install ffuf
 echo "ffuf:$(ffuf -V | awk '{print $3}'):$(ls -lh $(which ffuf) | awk '{print $5}')" >>  versions
 
-
+rm -rf /var/lib/apt/lists/*
 
 

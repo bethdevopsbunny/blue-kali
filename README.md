@@ -12,3 +12,8 @@ do not allow build container to exceed 1GB
 creates a versions file with tool version and size of each installed binary
 to swap out unused/ large binaries.
 
+
+## build 
+```docker build -t <container registery>/blue-kali ```
+
+
